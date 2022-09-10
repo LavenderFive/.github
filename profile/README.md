@@ -41,10 +41,10 @@ In addition to this, we utilize the following as our monitoring solutions:
 
 We also contribute greatly to each ecosystem we're in. As a few off the cuff examples:
 - Open source tooling for validators/node runners:
-  -> Ansible playbooks for Horcrux: https://github.com/LavenderFive/horcrux-ansible
-  -> Ansible playbooks for running nodes: https://github.com/LavenderFive/cosmos-validators-ansible
-  -> Ansible playbooks for secure server setup: https://github.com/LavenderFive/secure-server-setup-ansible
-  -> Slashing refund: https://github.com/LavenderFive/slash_refunds_tendermint
+  - Ansible playbooks for Horcrux: https://github.com/LavenderFive/horcrux-ansible
+  - Ansible playbooks for running nodes: https://github.com/LavenderFive/cosmos-validators-ansible
+  - Ansible playbooks for secure server setup: https://github.com/LavenderFive/secure-server-setup-ansible
+  - Slashing refund: https://github.com/LavenderFive/slash_refunds_tendermint
 - **Relaying**: we are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below).
 - We wrote the Gentx documentation for [Kujira](https://github.com/Team-Kujira/networks/pull/5)
 - We've either written or edited every document for [Secret Network](https://docs.scrt.network/)
