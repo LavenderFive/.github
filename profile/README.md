@@ -1,8 +1,7 @@
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/9121234/189499808-fa2b744f-fa1f-459a-8866-0625c619e1e0.png" />
+  <img src="https://user-images.githubusercontent.com/9121234/190864636-b5047a5b-8f44-42ed-a9de-62095bebd2a3.jpg" />
 </p>
-
 
 ## Who Are We
 [Lavender.Fives Nodes](https://www.lavenderfive.com/) is one of the most trusted Proof of Stake validators. 
