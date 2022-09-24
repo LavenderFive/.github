@@ -6,7 +6,7 @@
 ## Who Are We
 [Lavender.Fives Nodes](https://www.lavenderfive.com/) is one of the most trusted Proof of Stake validators. 
 Our team is able to maintain near-100% uptime through a variety of resources including dedicated servers around the world, 
-multiple 24/7 alerting systems in place, and always-ready backup servers. We are proud to say we serve as validators on more than 30 mainnets, and are trusted by over **20000** delegators. 
+multiple 24/7 alerting systems in place, and always-ready backup servers. We are proud to say we serve as validators on more than 30 mainnets, and are trusted by over **20,000** delegators. 
 
 We differentiate ourselves through our community engagement and contributions to the projects we serve. 
 This is achieved by authoring documentation for fellow validators, writing and promoting new governance proposals, 
@@ -24,10 +24,11 @@ A small selection of the networks we support include:
 
 ## Our Infrastructure
 
-We take a pragmatic approach to running validators. At the most basic level we utilize bare metal servers
-with a minimum of 2 full nodes per network. Each server is with a different providers, across Hetzner, OVHCloud, or MEVSpace.
-In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, with 3 signers. 
-What this means in practice is *ALL* nodes have to go down, or 2 signers, before we begin to miss blocks.
+We take a pragmatic approach to running validators. 
+
+At the most basic level we utilize bare metal servers with a minimum of 2 full nodes per network. 
+Each server is with a different providers, Hetzner, OVHCloud, or MEVspace, spread across multiple geographic locations.
+In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2 signers, before we miss a single block.
 
 In addition to this, we utilize the following as our monitoring solutions:
 - [Zabbix](https://www.zabbix.com/)
@@ -36,12 +37,15 @@ In addition to this, we utilize the following as our monitoring solutions:
 
 ## Our Contributions
 
-We also contribute greatly to each ecosystem we're in. As a few off the cuff examples:
+We also contribute greatly to each ecosystem we're in. 
+
+As a few off the cuff examples:
 - Open source tooling for validators/node runners:
   - Ansible playbooks for Horcrux: https://github.com/LavenderFive/horcrux-ansible
   - Ansible playbooks for running nodes: https://github.com/LavenderFive/cosmos-validators-ansible
   - Ansible playbooks for secure server setup: https://github.com/LavenderFive/secure-server-setup-ansible
   - Slashing refund: https://github.com/LavenderFive/slash_refunds_tendermint
+- We provide public RPC, API, and gRPC endpoints for every network we have a presence on
 - **Relaying**: we are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below).
 - We wrote the Gentx documentation for [Kujira](https://github.com/Team-Kujira/networks/pull/5)
 - We've either written or edited every document for [Secret Network](https://docs.scrt.network/)
