@@ -5,8 +5,9 @@
 
 ## Who Are We
 [Lavender.Fives Nodes](https://www.lavenderfive.com/) is one of the most trusted Proof of Stake validators. 
-Our team is able to maintain near-100% uptime through a variety of resources including dedicated servers around the world, 
-multiple 24/7 alerting systems in place, and always-ready backup servers. We are proud to say we serve as validators on more than 30 mainnets, and are trusted by over **20,000** delegators. 
+Our team is able to maintain industry-leading uptime through a variety of resources including dedicated servers around the world, 
+multiple 24/7 alerting systems in place, and always-ready backups. We are proud to say we serve as validators on more than 30 mainnets, 
+and are trusted by over **30,000 delegators**. 
 
 We differentiate ourselves through our community engagement and contributions to the projects we serve. 
 This is achieved by authoring documentation for fellow validators, writing and promoting new governance proposals, 
