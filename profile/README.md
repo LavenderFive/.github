@@ -36,6 +36,7 @@ As a few off the cuff examples:
   - Ansible playbooks for [secure server setup](https://github.com/LavenderFive/secure-server-setup-ansible)
   - [Tendermint slashing refund script](https://github.com/LavenderFive/slash_refunds_tendermint)
 - We provide **public RPC, API, and gRPC endpoints** for every network we have a presence on
+- We maintain **state sync snapshots** for every network
 - We provide a public **seed node** for each network we are on
 - **Relaying**: we are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below)
 - We wrote the Gentx documentation for [Kujira](https://github.com/Team-Kujira/networks/pull/5), Defund, Odin, Chihuahua, Dig, and more
