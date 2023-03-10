@@ -32,7 +32,7 @@ As a few off the cuff examples:
 - We provide a public **seed node** for every network we validate
 - **Relaying**: 
   - we are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below)
-  - We process over 25.000 IBC transactions a month across 20+ networks and 200+ channels. - [Data](https://relayers.smartstake.io/relayer/F87ADDB700C0CC94)
+  - We process over 125,000 IBC transactions a per month across 20+ networks and 200+ channels. - [Data](https://relayers.smartstake.io/relayer/F87ADDB700C0CC94)
 - **Open source tooling for validators/node runners**:
   - Core maintainer of the [Cosmos Chain Registry](https://github.com/cosmos/chain-registry) 
   - Ansible playbooks for [Horcrux](https://github.com/LavenderFive/horcrux-ansible)
