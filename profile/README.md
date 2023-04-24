@@ -27,12 +27,15 @@ In addition to this, we utilize the following as our monitoring solutions:
 We also contribute greatly to each ecosystem we're in. 
 
 As a few off the cuff examples:
+
+- We provide **public 2x daily pruned snapshots** for every network in order to help other nodes spin up
+- We provide **public 2x daily addrbook backups** for every network to help with peering
 - We provide **public RPC, API, and gRPC endpoints** for every network we have a presence on serving over 600M queries a month
 - We maintain **state sync snapshots** for every network we validate
 - We provide a public **seed node** for every network we validate
 - **Relaying**: 
   - we are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below)
-  - We process over 125,000 IBC transactions a per month across 20+ networks and 200+ channels. - [Data](https://relayers.smartstake.io/relayer/F87ADDB700C0CC94)
+  - We process over 180,000 IBC transactions a per month across 30+ networks and 200+ channels. - [Data](https://relayers.smartstake.io/relayer/F87ADDB700C0CC94)
 - **Open source tooling for validators/node runners**:
   - Core maintainer of the [Cosmos Chain Registry](https://github.com/cosmos/chain-registry) 
   - Ansible playbooks for [Horcrux](https://github.com/LavenderFive/horcrux-ansible)
