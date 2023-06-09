@@ -40,6 +40,7 @@ As a few off the cuff examples:
   - Core maintainer of the [Cosmos Chain Registry](https://github.com/cosmos/chain-registry) 
   - Ansible playbooks for [Horcrux](https://github.com/LavenderFive/horcrux-ansible)
   - Ansible playbooks for [secure server setup](https://github.com/LavenderFive/secure-server-setup-ansible)
+  - Ansible playbooks for [relaying](https://github.com/LavenderFive/ibc-relayer-ansible)
   - [Tendermint slashing refund script](https://github.com/LavenderFive/slash_refunds_tendermint)
 - We have addded validator ledger support to the Injective protocol
 - We wrote the Gentx documentation for [Kujira](https://github.com/Team-Kujira/networks/pull/5), Defund, Odin, Chihuahua, Dig, and more
