@@ -81,8 +81,12 @@ A small selection of the networks we support include:
 - Near
 - Secret Network
 - Cosmos Hub 
-- Osmosis
-- Evmos
-- Juno
-- Sommelier
 - [and many more!](https://www.lavenderfive.com/)
+
+---
+
+Finally, be sure to catch members of the Lavender.Five team on [Game of Nodes](https://twitter.com/gameofnodes_)!
+Broadcast live on [YouTube](https://www.youtube.com/channel/UCWsyvi27z0i2bmOyBw1MAKA/videos) and 
+[Twitter](https://twitter.com/gameofnodes_) every Wednesday at 21:00 UTC.
+
+Find [Game of Nodes](https://rss.com/podcasts/game-of-nodes/) in your favorite Podcast Player.
