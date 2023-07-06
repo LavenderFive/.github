@@ -19,7 +19,7 @@ projects we validate by authoring documentation for fellow validators, improving
 by providing automated setups, developing new features like hardware wallet support, and helping squash
 code bugs before they become an issue.
 
-## Our Infrastructure
+## Infrastructure
 
 We take a pragmatic approach to running validators. At the most basic level we utilize bare metal servers
 with a minimum of 2 full nodes per network. Each server is with a different providers, Cherry, Ionos, 
@@ -27,11 +27,15 @@ PhoenixNap, DigitalOcean, AWS, Hetzner, OVHCloud, or MEVspace, spread across mul
 In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, 
 with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2 signers, before we miss a single block.
 
-In addition to this, we utilize the following as our monitoring solutions:
-- [Zabbix](https://www.zabbix.com/)
-- [Prometheus](https://prometheus.io/)
-- [Tenderduty](https://github.com/blockpane/tenderduty)
-- [Healthchecks.io](https://healthchecks.io/)
+## Monitoring
+
+<p align="center"><img src="https://github.com/LavenderFive/.github/assets/9121234/49fd2ed2-f674-4eb8-abdf-d33dae13bdcc" /></p>
+
+For every node we manage, we utilize both Prometheus and Zabbix to consume metrics for redundancy. Utilizing Grafana
+we expose those metrics for us to review. An example of one of our dashboards can be seen 
+[here](https://github.com/LavenderFive/aptos-monitoring#3-checkly-integation-optional). We also have alerts set up 
+through both Zabbix and Prometheus so that if a node is having issues we will immediately be notified via Pagerduty to
+Slack, Discord, and direct push notifications to our phones. 
 
 ## Our Contributions
 
