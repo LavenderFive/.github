@@ -46,7 +46,7 @@ We also contribute greatly to each ecosystem we're in.
 - We provide open source tooling for every network we support, using Aptos as an example:
   - Ansible Playbook for [running nodes](https://github.com/LavenderFive/aptos-ansible)
   - Complete monitoring solution using [Prometheus, Grafana, and built-in alerts](https://github.com/LavenderFive/aptos-monitoring)
-- Core mainter of:
+- We are core maintainers of:
   - [Cosmos Chain Registry](https://github.com/cosmos/chain-registry) 
   - The best monitoring solution for Cosmos-based nodes, [Tenderduty](https://github.com/blockpane/tenderduty)
   - [Tendermint slashing refund script](https://github.com/LavenderFive/slash_refunds_tendermint)
