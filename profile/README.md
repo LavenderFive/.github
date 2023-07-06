@@ -29,13 +29,13 @@ with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2
 
 ## Monitoring
 
-<p align="center"><img src="https://github.com/LavenderFive/.github/assets/9121234/49fd2ed2-f674-4eb8-abdf-d33dae13bdcc" /></p>
-
 For every node we manage, we utilize both Prometheus and Zabbix to consume metrics for redundancy. Utilizing Grafana
 we expose those metrics for us to review. An example of one of our dashboards can be seen 
 [here](https://github.com/LavenderFive/aptos-monitoring#3-checkly-integation-optional). We also have alerts set up 
 through both Zabbix and Prometheus so that if a node is having issues we will immediately be notified via Pagerduty to
 Slack, Discord, and direct push notifications to our phones. 
+
+<p align="center"><img src="https://github.com/LavenderFive/.github/assets/9121234/49fd2ed2-f674-4eb8-abdf-d33dae13bdcc" /></p>
 
 ## Our Contributions
 
