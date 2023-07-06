@@ -4,45 +4,66 @@
 </p>
 
 ## Who Are We
-[Lavender.Fives Nodes](https://www.lavenderfive.com/) is a company of 3 dedicated to bringing secure infrastructure and pragmatic software solutions to over 30 proof-of-stake blockchains. With 15+ years in software development and system administration experience we guarantee safety for the funds of over **50,000 delegators**. This makes us one of the most trusted Proof of Stake validators, and for good reason!
+[Lavender.Fives Nodes](https://www.lavenderfive.com/) is a company of 3 dedicated to bringing secure 
+infrastructure and pragmatic software solutions to over 30 proof-of-stake blockchains. With 15+ years 
+in software development and system administration experience we guarantee safety for the funds of 
+over **60,000 delegators**. This makes us one of the most trusted Proof of Stake validators.
 
 Our team is able to maintain industry-leading uptime by using dedicated servers around the world, 
-multiple 24/7 alerting systems, and a remote signing solution with always-ready backups. We are proud to say we serve as validators on more than 30 mainnets processing Millions of transactions every month!
+multiple 24/7 alerting systems, and a remote signing solution with always-ready backups. We are 
+proud to say we serve as validators on more than 40 mainnets, processing millions of transactions every month.
 
-We differentiate ourselves through our public infrastructure like API nodes and IBC relaying while simultaneously dedicating ourselves to wholesome governance and community engagement. We serve the projects we validate by authoring documentation for fellow validators, improving infrastructure security by providing automated setups, developing out new features like hardware wallet support, and helping squash code bugs before they become an issue.
+We differentiate ourselves through our public infrastructure like API nodes and IBC relaying while 
+simultaneously dedicating ourselves to wholesome governance and community engagement. We serve the
+projects we validate by authoring documentation for fellow validators, improving infrastructure security
+by providing automated setups, developing new features like hardware wallet support, and helping squash
+code bugs before they become an issue.
 
 ## Our Infrastructure
 
-We take a pragmatic approach to running validators. At the most basic level we utilize bare metal servers with a minimum of 2 full nodes per network. 
-Each server is with a different providers, Cherry, Ionos, Leaseweb, DigitalOcean, AWS, Hetzner, OVHCloud, or MEVspace, spread across multiple geographic locations.
-In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2 signers, before we miss a single block.
+We take a pragmatic approach to running validators. At the most basic level we utilize bare metal servers
+with a minimum of 2 full nodes per network. Each server is with a different providers, Cherry, Ionos, 
+PhoenixNap, DigitalOcean, AWS, Hetzner, OVHCloud, or MEVspace, spread across multiple geographic locations.
+In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, 
+with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2 signers, before we miss a single block.
 
 In addition to this, we utilize the following as our monitoring solutions:
 - [Zabbix](https://www.zabbix.com/)
 - [Prometheus](https://prometheus.io/)
 - [Tenderduty](https://github.com/blockpane/tenderduty)
+- [Healthchecks.io](https://healthchecks.io/)
 
 ## Our Contributions
 
 We also contribute greatly to each ecosystem we're in. 
 
-As a few off the cuff examples:
+### Open Source Tooling
 
-- We provide **public 2x daily pruned snapshots** for every network in order to help other nodes spin up
+- We provide open source tooling for every network we support, using Aptos as an example:
+  - Ansible Playbook for [running nodes](https://github.com/LavenderFive/aptos-ansible)
+  - Complete monitoring solution using [Prometheus, Grafana, and built-in alerts](https://github.com/LavenderFive/aptos-monitoring)
+- Core mainter of:
+  - [Cosmos Chain Registry](https://github.com/cosmos/chain-registry) 
+  - The best monitoring solution for Cosmos-based nodes, [Tenderduty](https://github.com/blockpane/tenderduty)
+  - [Tendermint slashing refund script](https://github.com/LavenderFive/slash_refunds_tendermint)
+- Other Ansible Playbooks
+  - [Horcrux](https://github.com/LavenderFive/horcrux-ansible)
+  - [Server Setup](https://github.com/LavenderFive/secure-server-setup-ansible)
+
+### Services
+
+- We provide [**public 2x daily pruned snapshots**](https://services.lavenderfive.com/) for every network in order to help other nodes spin up
 - We provide **public 2x daily addrbook backups** for every network to help with peering
 - We provide **public RPC, API, and gRPC endpoints** for every network we have a presence on serving over 600M queries a month
 - We maintain **state sync snapshots** for every network we validate
 - We provide a public **seed node** for every network we validate
 - **Relaying**: 
-  - we are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below)
-  - We process over 300,000 IBC transactions a per month across 30+ networks and 200+ channels. - [Data](https://relayers.smartstake.io/relayer/F87ADDB700C0CC94)
-- **Open source tooling for validators/node runners**:
-  - Core maintainer of the [Cosmos Chain Registry](https://github.com/cosmos/chain-registry) 
-  - Ansible playbooks for [Horcrux](https://github.com/LavenderFive/horcrux-ansible)
-  - Ansible playbooks for [secure server setup](https://github.com/LavenderFive/secure-server-setup-ansible)
-  - Ansible playbooks for [relaying](https://github.com/LavenderFive/ibc-relayer-ansible)
-  - [Tendermint slashing refund script](https://github.com/LavenderFive/slash_refunds_tendermint)
-- We have addded validator ledger support to the Injective protocol
+  - We are one of the most prolific relayers in the ecosystem, and have helped many relayers get their start (see the docs below)
+  - We process over 400,000 IBC transactions a per month across 30+ networks and 200+ channels. - [Data](https://relayers.smartstake.io/relayer/F87ADDB700C0CC94)
+
+### Misc Contributions
+
+- We have added validator ledger support to many networks, including Injective protocol
 - We wrote the Gentx documentation for [Kujira](https://github.com/Team-Kujira/networks/pull/5), Defund, Odin, Chihuahua, Dig, and more
 - We've either written or edited every document for [Secret Network](https://docs.scrt.network/)
 - We write documentation to help other node runners:
