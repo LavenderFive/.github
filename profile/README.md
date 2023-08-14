@@ -1,7 +1,8 @@
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/9121234/190864636-b5047a5b-8f44-42ed-a9de-62095bebd2a3.jpg" />
+  <img src="https://github.com/LavenderFive/.github/assets/9121234/d24298a0-f7b5-42cd-8b86-273232771535" />
 </p>
+
 
 ## Who Are We
 [Lavender.Fives Nodes](https://www.lavenderfive.com/) is a company of 3 dedicated to bringing secure 
