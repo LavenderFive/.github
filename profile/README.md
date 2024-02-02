@@ -15,18 +15,28 @@ multiple 24/7 alerting systems, and a remote signing solution with always-ready 
 proud to say we serve as validators on more than 40 mainnets, processing millions of transactions every month.
 
 We differentiate ourselves through our public infrastructure like API nodes and IBC relaying while 
-simultaneously dedicating ourselves to wholesome governance and community engagement. We serve the
+simultaneously dedicating ourselves to wholesome and holistic governance and community engagement. We serve the
 projects we validate by authoring documentation for fellow validators, improving infrastructure security
 by providing automated setups, developing new features like hardware wallet support, and helping squash
 code bugs before they become an issue.
 
-## Infrastructure
+## Security
+
+### Node Topology
 
 We take a pragmatic approach to running validators. At the most basic level we utilize bare metal servers
 with a minimum of 2 full nodes per network. Each server is with a different providers, Cherry, Ionos, 
 PhoenixNap, DigitalOcean, AWS, Hetzner, OVHCloud, or MEVspace, spread across multiple geographic locations.
 In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, 
 with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2 signers, before we miss a single block.
+
+### Operator Keys
+
+Where applicable, all operator keys are secured using a Ledger. 
+
+### Validator Keys
+
+All validator/signing keys are stored locally on an offline, encrypted hard drive in addition to encrypted cloud storage.
 
 ## Monitoring
 
