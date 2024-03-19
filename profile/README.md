@@ -38,6 +38,11 @@ highly available, redundant infrastructure for blockchain projects:
   or [Horcrux](https://github.com/strangelove-ventures/horcrux).
 - Where applicable, all operator keys are secured using a Ledger or other hardware key.
 
+### Remote/MPC Signing Solution
+
+![157145772-8557b4b5-a0cc-4073-8834-86afda1900fc](https://github.com/LavenderFive/.github/assets/9121234/fca0d230-9dca-4f5f-a66d-2a069184c92e)
+
+
 ## Monitoring
 
 For every node we manage, we utilize both Prometheus and Zabbix to consume metrics for redundancy. Utilizing Grafana
