@@ -32,6 +32,7 @@ highly available, redundant infrastructure for blockchain projects:
 - Secure, high bandwidth, encrypted connectivity is in place between data center networks and public nodes
   to allow for node relocation, data duplication, and encrypted communication across sites.
 - Secure, out of band, multi-factor based remote management is in place for 24x7 monitoring and support by Lavender.Five team.
+- All server access is gated behind hardware keys (ie. Yubikey).
 - 24x7 event escalation and alarm notification provided by PagerDuty to a *globally diverse team*.
 - All validator/signing keys are stored locally on an offline, encrypted hard drive in addition to encrypted cloud storage.
 - Where applicable, we utilize remote MPC/RAFT signers such as [Web3Signer](https://github.com/ConsenSys/web3signer/)
