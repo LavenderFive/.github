@@ -20,23 +20,24 @@ projects we validate by authoring documentation for fellow validators, improving
 by providing automated setups, developing new features like hardware wallet support, and helping squash
 code bugs before they become an issue.
 
-## Security
+## Infrastructure
 
-### Node Topology
+The following diagram outlines the high-level approach to our network topology which optimizes for 
+highly available, redundant infrastructure for blockchain projects:
 
-We take a pragmatic approach to running validators. At the most basic level we utilize bare metal servers
-with a minimum of 2 full nodes per network. Each server is with a different providers, Cherry, Ionos, 
-PhoenixNap, DigitalOcean, AWS, Hetzner, OVHCloud, or MEVspace, spread across multiple geographic locations.
-In addition, we utilize [Horcrux](https://github.com/strangelove-ventures/horcrux) as our remote signing solution, 
-with 3 signers. What this means in practice is *ALL* nodes have to go down, or 2 signers, before we miss a single block.
+![Network Architecture drawio (1)](https://github.com/LavenderFive/.github/assets/9121234/82f476af-3be2-4159-97a4-45d2fd4aed34)
 
-### Operator Keys
-
-Where applicable, all operator keys are secured using a Ledger. 
-
-### Validator Keys
-
-All validator/signing keys are stored locally on an offline, encrypted hard drive in addition to encrypted cloud storage.
+### High Level Points:
+- At the most basic level we utilize bare metal servers with a minimum of 2 full nodes per network.
+- Each server is with a different provider at a different geographical location.
+- Secure, high bandwidth, encrypted connectivity is in place between data center networks and public nodes
+  to allow for node relocation, data duplication, and encrypted communication across sites.
+- Secure, out of band, multi-factor based remote management is in place for 24x7 monitoring and support by Lavender.Five team.
+- 24x7 event escalation and alarm notification provided by PagerDuty.
+- Where applicable, we utilize remote MPC signers such as [Web3Signer](https://github.com/ConsenSys/web3signer/)
+  or [Horcrux](https://github.com/strangelove-ventures/horcrux).
+- Where applicable, all operator keys are secured using a Ledger or other hardware key.
+- All validator/signing keys are stored locally on an offline, encrypted hard drive in addition to encrypted cloud storage.
 
 ## Monitoring
 
@@ -48,7 +49,7 @@ Slack, Discord, and direct push notifications to our phones.
 
 <p align="center"><img src="https://github.com/LavenderFive/.github/assets/9121234/49fd2ed2-f674-4eb8-abdf-d33dae13bdcc" /></p>
 
-## Our Contributions
+## Our Involvement
 
 We also contribute greatly to each ecosystem we're in. 
 
