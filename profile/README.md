@@ -6,9 +6,9 @@
 
 ## Who Are We
 [Lavender.Fives Nodes](https://www.lavenderfive.com/) is a company of 3 dedicated to bringing secure 
-infrastructure and pragmatic software solutions to over 30 proof-of-stake blockchains. With 15+ years 
+infrastructure and pragmatic software solutions to over 50 proof-of-stake blockchains. With 15+ years 
 in software development and system administration experience we guarantee safety for the funds of 
-over **60,000 delegators**. This makes us one of the most trusted Proof of Stake validators.
+over **100,000 delegators**. This makes us one of the most trusted Proof of Stake validators.
 
 Our team is able to maintain industry-leading uptime by using dedicated servers around the world, 
 multiple 24/7 alerting systems, and a remote signing solution with always-ready backups. We are 
