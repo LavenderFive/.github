@@ -11,8 +11,7 @@ in software development and system administration experience we guarantee safety
 over **100,000 delegators**. This makes us one of the most trusted Proof of Stake validators.
 
 Our team is able to maintain industry-leading uptime by using dedicated servers around the world, 
-multiple 24/7 alerting systems, and a remote signing solution with always-ready backups. We are 
-proud to say we serve as validators on more than 40 mainnets, processing millions of transactions every month.
+multiple 24/7 alerting systems, and a remote signing solution with always-ready backups. 
 
 We differentiate ourselves through our public infrastructure like API nodes and IBC relaying while 
 simultaneously dedicating ourselves to wholesome and holistic governance and community engagement. We serve the
