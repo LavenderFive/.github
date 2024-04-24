@@ -33,19 +33,18 @@ highly available, redundant infrastructure for blockchain projects:
   to allow for node relocation, data duplication, and encrypted communication across sites.
 - Secure, out of band, multi-factor based remote management is in place for 24x7 monitoring and support by Lavender.Five team.
 - All server access is gated behind hardware keys (ie. Yubikey).
-- 24x7 event escalation and alarm notification provided by PagerDuty to a *globally diverse team*.
+- 24x7 event escalation and alarm notification provided by PagerDuty to a **globally diverse team**.
 - All validator/signing keys are stored locally on an offline, encrypted hard drive in addition to encrypted cloud storage.
-- Where applicable, we utilize remote MPC/RAFT signers such as [Web3Signer](https://github.com/ConsenSys/web3signer/)
+- Where applicable, we utilize remote MPC/RAFT signers such as [Web3Signer](https://github.com/ConsenSys/web3signer/), [SSV](https://ssv.network/),
   or [Horcrux](https://github.com/strangelove-ventures/horcrux).
 - Where applicable, all operator keys are secured using a Ledger or other hardware key.
 
-### Remote/MPC Signing Solution
+### Remote/MPC Signing Topology
 
 ![157145772-8557b4b5-a0cc-4073-8834-86afda1900fc](https://github.com/LavenderFive/.github/assets/9121234/fca0d230-9dca-4f5f-a66d-2a069184c92e)
 
 
 ## Monitoring
-
 For every node we manage, we utilize both Prometheus and Zabbix to consume metrics for redundancy. Utilizing Grafana
 we expose those metrics for us to review. An example of one of our dashboards can be seen 
 [here](https://github.com/LavenderFive/aptos-monitoring#3-checkly-integation-optional). We also have alerts set up 
