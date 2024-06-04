@@ -47,7 +47,7 @@ highly available, redundant infrastructure for blockchain projects:
 ## Monitoring
 For every node we manage, we utilize both Prometheus and Zabbix to consume metrics for redundancy. Utilizing Grafana
 we expose those metrics for us to review. An example of one of our dashboards can be seen 
-[here](https://github.com/LavenderFive/aptos-monitoring#3-checkly-integation-optional). We also have alerts set up 
+[here](https://github.com/LavenderFive/aptos-monitoring). We also have alerts set up 
 through both Zabbix and Prometheus so that if a node is having issues we will immediately be notified via Pagerduty to
 Slack, Discord, and direct push notifications to our phones. 
 
