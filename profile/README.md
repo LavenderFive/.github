@@ -74,7 +74,7 @@ We also contribute greatly to each ecosystem we're in.
 
 - We provide [**public 2x daily pruned snapshots**](https://services.lavenderfive.com/) for every network in order to help other nodes spin up
 - We provide **public 2x daily addrbook backups** for every network to help with peering
-- We provide **public RPC, API, and gRPC endpoints** for every network we have a presence on serving over 600M queries a month
+- We provide **public RPC, API, JSONRPC, and gRPC endpoints** for every network we have a presence on serving over 10 billion queries per month
 - We maintain **state sync snapshots** for every network we validate
 - We provide a public **seed node** for every network we validate
 - **Relaying**: 
@@ -83,7 +83,7 @@ We also contribute greatly to each ecosystem we're in.
 
 ### Misc Contributions
 
-- We have added validator ledger support to many networks, including Injective protocol
+- We have added validator ledger support to many networks
 - We wrote the Gentx documentation for [Kujira](https://github.com/Team-Kujira/networks/pull/5), Defund, Odin, Chihuahua, Dig, and more
 - We've either written or edited every document for [Secret Network](https://docs.scrt.network/)
 - We write documentation to help other node runners:
@@ -98,6 +98,7 @@ We also contribute greatly to each ecosystem we're in.
 ## A Showing of Networks
 A small selection of the networks we support include:
 - Aptos
+- Aleo
 - Near
 - Secret Network
 - Cosmos Hub 
