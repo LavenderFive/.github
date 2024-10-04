@@ -74,7 +74,7 @@ We also contribute greatly to each ecosystem we're in.
 
 - We provide [**public 2x daily pruned snapshots**](https://services.lavenderfive.com/) for every network in order to help other nodes spin up
 - We provide **public 2x daily addrbook backups** for every network to help with peering
-- We provide **public RPC, API, JSONRPC, and gRPC endpoints** for every network we have a presence on serving over 10 billion queries per month
+- We provide **public RPC, API, JSONRPC, and gRPC endpoints** for every network we have a presence on serving over **10 billion requests per month**
 - We maintain **state sync snapshots** for every network we validate
 - We provide a public **seed node** for every network we validate
 - **Relaying**: 
